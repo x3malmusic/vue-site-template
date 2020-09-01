@@ -1,0 +1,15 @@
+@import "./_variables";
+@import './_breakpoints';
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.section_width {
+  max-width: $w_main;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding-left: $pa_main;
+  padding-right: $pa_main;
+}

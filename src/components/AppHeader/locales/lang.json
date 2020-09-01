@@ -1,0 +1,25 @@
+{
+  "en": {
+    "navLinks": [
+      {
+        "name": "Home",
+        "path": "/"
+      },
+      {
+        "name": "Destinations",
+        "path": "/destinations"
+      },
+      {
+        "name": "About",
+        "path": "/about"
+      },
+      {
+        "name": "Partner",
+        "path": "/partner"
+      }
+    ],
+    "btnLogin": "Login",
+    "btnRegister": "Register"
+  },
+  "ru": {}
+}
