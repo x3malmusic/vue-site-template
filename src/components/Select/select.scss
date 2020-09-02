@@ -1,0 +1,26 @@
+.select {
+  min-width: 220px;
+  height: 52px;
+  border: 0.8px solid $color_select_border;
+  box-sizing: border-box;
+  border-radius: $br_select;
+  padding: 0 32px;
+  appearance: none;
+  position: relative;
+  font-size: $fs_button;
+
+  &-wrapper {
+    display: inline-block;
+    position: relative;
+  }
+
+  &-arrow {
+    position: absolute;
+    transform: rotate(180deg);
+    top: 24px;
+    right: 29px;
+    width: 10px;
+    height: 10px;
+    z-index: 2;
+  }
+}
