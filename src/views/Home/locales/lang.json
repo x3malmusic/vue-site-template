@@ -1,0 +1,35 @@
+{
+  "en": {
+    "section_1": {
+      "h1": "Explore and Travel",
+      "h3": "Holiday finder",
+      "options": [
+        "Location",
+        "Activity",
+        "Grade",
+        "Date"
+      ],
+      "btn": "Explore"
+    },
+    "section_2": {
+      "h2": "A new way to explore the world ",
+      "text": "For decades travellers have reached for Lonely Planet books when looking to plan and execute their perfect trip, but now, they can also let Lonely Planet Experiences lead the way",
+      "btn" : "Learn More"
+    },
+    "section_3": {
+      "h2": "Featured destinations",
+      "a": "View all"
+    },
+    "section_4": {
+      "h2": "Guides by Thousand Sunny",
+      "text": "Packed with tips and advice from our on-the-ground experts, our city guides app (iOS and Android) is the ultimate resource before and during a trip.",
+      "btn": "Download"
+    },
+    "section_5": {
+      "h2": "Testimonials",
+      "text" : "“Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac scelerisque eu, facilisis quis purus. Morbi blandit sit amet turpis nec”",
+      "name": "Edward Newgate",
+      "position": "Founder Circle"
+    }
+  }
+}
