@@ -1,0 +1,56 @@
+.slider {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  min-width: 384px;
+  min-height: 491px;
+
+  img {
+    border-radius: 18px;
+  }
+
+  .imageHide {
+    display: none;
+  }
+
+  &-control {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 132px;
+    height: 60px;
+    background: #FFFFFF;
+    border-radius: 16px 0px 0px 0px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+    button {
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      text-align: center;
+      background: transparent;
+      outline: none;
+      cursor: pointer;
+
+      &:last-child {
+        margin-left: 22px;
+      }
+    }
+
+    .arrow-left, .arrow-right {
+      width: 12px;
+    }
+
+    .arrow-left {
+      transform: rotate(-90deg);
+    }
+
+    .arrow-right {
+      transform: rotate(90deg);
+    }
+  }
+}
