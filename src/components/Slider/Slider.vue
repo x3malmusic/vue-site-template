@@ -1,6 +1,8 @@
 <template>
   <div class="slider">
-    <slot></slot>
+    <div class="slider-wrapper">
+      <slot></slot>
+    </div>
     <div class="slider-control">
       <button class="slider-control-btn-left" @click="showPrev">
         <img src="./chevron.svg" alt="left" class="arrow-left" />
