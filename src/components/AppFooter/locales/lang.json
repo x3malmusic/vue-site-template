@@ -1,0 +1,36 @@
+{
+  "en": {
+    "block_1": {
+      "text": "Plan and book your perfect trip with expert advice, travel tips destination information from us",
+      "copyright": "©2020 Thousand Sunny. All rights reserved"
+    },
+    "lists": [
+      {
+        "name": "Destinations",
+        "links": ["Africa", "Antarctica", "Asia", "Europe", "America"]
+      },
+      {
+        "name": "Shop",
+        "links": [
+          "Destination Guides",
+          "Pictorial & Gifts",
+          "Special Offers",
+          "Delivery Times",
+          "FAQs"
+        ]
+      },
+      {
+        "name": "Interests",
+        "links": [
+          "Adventure Travel",
+          "Art And Culture",
+          "Wildlife And Nature",
+          "Family Holidays",
+          "Food And Drink"
+        ]
+      }
+    ],
+    "socials": ["icon_twit", "icon_fb","icon_inst", "icon_link", "icon_you"]
+  },
+  "ru": {}
+}
