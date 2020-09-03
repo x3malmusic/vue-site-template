@@ -2,11 +2,7 @@
 
 <template>
   <nav class="navbar">
-    <div class="logo">
-      <router-link to="/">
-        <img src="../../assets/images/logo.png" alt="logo" />
-      </router-link>
-    </div>
+    <logo />
     <div class="menu-collapsible" :class="collapse && 'menu-active'">
       <ul class="nav-links">
         <li class="nav-link" v-for="link in $t('navLinks')">
@@ -25,12 +21,14 @@
 <script>
 import AppButton from "../Button/AppButton";
 import BurgerButton from "../BurgerButton/BurgerButton";
+import Logo from "../Logo/Logo";
 
 export default {
   name: "AppHeader",
   components: {
     AppButton,
     BurgerButton,
+    Logo,
   },
   data: () => ({
     collapse: false,

@@ -7,14 +7,6 @@
   margin: 0 auto;
   max-width: $w_header;
 
-  .logo {
-    transition: transform .2s ease-in;
-
-    &:hover {
-      transform: scale(1.1);
-    }
-  }
-
   .menu-active {
     transform: translateX(0) !important;
   }
