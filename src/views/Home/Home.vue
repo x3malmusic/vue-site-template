@@ -55,11 +55,7 @@
         <a href="#">{{ $t("section_3.a") }} &nbsp;></a>
       </div>
       <div class="images">
-        <img
-          :src="imgPath(img)"
-          alt="img"
-          v-for="img in $t('section_3.images')"
-        />
+        <img :src="imgPath(`destinations_${i}`)" alt="img" v-for="i in 4" />
       </div>
     </section>
     <!-- END section 3-->
@@ -124,9 +120,9 @@
         <a href="#">{{ $t("section_6.a") }} &nbsp;></a>
       </div>
       <div class="cards">
-        <div class="card" v-for="card in $t('section_6.cards')">
+        <div class="card" v-for="(card, i) in $t('section_6.cards')">
           <div class="card-main">
-            <img :src="imgPath(card.img)" alt="" />
+            <img :src="imgPath(`trending_${+i + 1}`)" alt="" />
             <h3>{{ card.h3 }}</h3>
             <p>{{ card.text }}</p>
           </div>

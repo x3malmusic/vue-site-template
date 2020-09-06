@@ -15,9 +15,11 @@ module.exports = {
         sassOptions: {
           includePaths: [path.resolve(__dirname, "src")],
         },
-        prependData: `@import "./src/assets/styles/main.scss";`,
+        prependData: `@import "./src/assets/styles/main.scss";
+                      @import "./src/assets/styles/fonts.scss";
+                      `,
       },
     },
   },
-  assetsDir: "@/assets/",
+  assetsDir: "@/assets",
 };
