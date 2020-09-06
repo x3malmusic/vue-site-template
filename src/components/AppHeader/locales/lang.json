@@ -21,5 +21,26 @@
     "btnLogin": "Login",
     "btnRegister": "Register"
   },
-  "ru": {}
+  "ru": {
+    "navLinks": [
+      {
+        "name": "Домой",
+        "path": "/"
+      },
+      {
+        "name": "Направления",
+        "path": "/destinations"
+      },
+      {
+        "name": "О нас",
+        "path": "/about"
+      },
+      {
+        "name": "Партнеры",
+        "path": "/partner"
+      }
+    ],
+    "btnLogin": "Войти",
+    "btnRegister": "Регистрация"
+  }
 }
