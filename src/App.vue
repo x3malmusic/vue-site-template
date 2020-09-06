@@ -2,7 +2,9 @@
   <div id="app">
     <locale-changer />
     <app-header />
-    <router-view />
+    <transition name="fade" mode="out-in">
+      <router-view />
+    </transition>
     <app-footer />
   </div>
 </template>
