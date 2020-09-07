@@ -3,6 +3,10 @@
 @import "./_animations";
 @import "./fonts.scss";
 
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -23,7 +27,7 @@ h2 {
 }
 
 h3 {
-  font-family: Inter;
+  font-family: Inter, "Times New Roman", "serif";
   font-weight: 900;
   font-size: $fs_h3;
 }
@@ -35,9 +39,9 @@ p {
 }
 
 h1, h2 {
-  font-family: Playfair;
+  font-family: Playfair, "Times New Roman", "serif";
 }
 
 a, p {
-  font-family: Muli;
+  font-family: Muli, "Times New Roman", "serif";
 }

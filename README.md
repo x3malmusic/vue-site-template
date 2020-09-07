@@ -14,5 +14,5 @@ npm run serve
 ```
 npm run build
 ```
-working app - https://5f5558e7cbf55b61323a22af--quizzical-tereshkova-6b063b.netlify.app
+working app - https://5f56c25072c945c54ff31d77--quizzical-tereshkova-6b063b.netlify.app
 
